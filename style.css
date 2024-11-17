@@ -1,0 +1,135 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: url(https://media.istockphoto.com/id/589135154/photo/herbs-and-spices-over-black-stone-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=pnSwlU8n-38HvUsCOE_r3OYklT1O1WAyijrIMp2g9_g=);
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+/* Products Section */
+.products {
+    padding: 2rem;
+    background-color: #f4f4f4;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: white;
+    width: 250px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.price {
+    color: #4CAF50;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.buy-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #45a049;
+}
+
+/* Reviews Section */
+.reviews {
+    padding: 2rem;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.review-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-card {
+    background-color: #f9f9f9;
+    width: 400px;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 1px solid #0b0b0b;
+    border-radius: 5px;
+}
+
+.review-text {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.review-author {
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
